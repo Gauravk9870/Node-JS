@@ -20,9 +20,9 @@
 
 **3. Write File:**
 
-    *• If file is not exits then it will create a new File.*
+    ***• If file is not exits then it will create a new File.***
 
-    *• If there is already a file exits and having content then it replace the content*
+    ***• If there is already a file exits and having content then it replace the content***
 
     `Fs.writeFileSync(“filename.ext”, “Writing in file”);`
 
@@ -42,13 +42,13 @@
 
 **7. Delete files from folder:**
 
-    *• First read the directory*
+    ***• First read the directory***
 
-    *• Then delete the files.*
+    ***• Then delete the files.***
 
     `Let content = fs.readdirSync(“FolderName”);`
 
-    *Deleting all files using Loop*
+    ***Deleting all files using Loop***
 
     `For(let i=0; i<content.length; i++)`
 
@@ -64,13 +64,13 @@
 
 **9. Check Directory exits or not:**
 
-     *if a file exits at path -> True or False*
+     ***if a file exits at path -> True or False***
      
     `Fs.exitsSync(“folderName”)`
 
 **10. Check is this is Path of a Directory or a File:**
 
-    *it returns object and then we have to call some functions.*
+    ***it returns object and then we have to call some functions.***
 
     `Let x = fs.lstatSync(__dirname + “Foldername”);`
     
