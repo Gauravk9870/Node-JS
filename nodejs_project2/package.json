@@ -1,0 +1,15 @@
+{
+  "name": "nodejs_project2",
+  "version": "1.0.0",
+  "description": "// Wcat \r // It is used to display or make a copy content of one or more files in the terminal",
+  "main": "wcat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin":{
+    "wcat":"wcat.js"
+  }
+}
